@@ -1,0 +1,38 @@
+Source: ibus-table-myanmar
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: kokoye2007 <kokoye2007@gmail.com>
+Build-Depends: cmake, debhelper (>= 11.0.0)
+Build-Depends-Indep: ibus-table (>= 1.9.1-1~), pkg-config
+Standards-Version: 4.3.0
+Homepage: https://github.com/ibus/ibus/wiki
+Vcs-Git: https://github.com/kokoye2007/ibus-table-myanmar.git
+Vcs-Browser: https://github.com/kokoye2007/ibus-table-myanmar
+
+Package: ibus-table-myanmar
+Architecture: all
+Depends: ibus-table-zawgyi,
+         ibus-table-burmese,
+         ${misc:Depends}
+Description: ibus-table input method: Myanmar (dummy package)
+ This is a dummy package for safe upgrade.
+ .
+ You can safely remove it from your system.
+
+Package: ibus-table-burmese
+Architecture: all
+Depends: ibus-table (>= 1.9.1-1~), ${misc:Depends}
+Description: ibus-table input method: Burmese
+ This package provide one input method: Burmese
+ .
+ Burmese is a simple input method, check more information at
+ https://en.wikipedia.org/wiki/Burmese_language
+
+Package: ibus-table-zawgyi
+Architecture: all
+Depends: ibus-table (>= 1.9.1-1~), ${misc:Depends}
+Description: ibus-table input method: Zawgyi
+ This package provide one input method: Zawgyi.
+ .
+ Zawgyi is a Legacy and Most Popular Burmese input method .

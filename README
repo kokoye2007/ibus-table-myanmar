@@ -1,0 +1,41 @@
+Requirements:
+
+    You need to install ibus-table first.
+
+Introduction:
+
+    ibus-table-myanmar provide the following input method tables for
+    IBus-Table, an input method that support table input methods.
+
+	burmese - burmese 
+	zawgyi  - zawgyi
+        shan    - shan
+
+This package is released under GPLv3.
+
+Dependencies:
+    For build:
+	cmake
+	cmake-fedora >= 0.6.0
+
+    Build and Run:
+	ibus
+	ibus-table
+
+Where to Report Issues:
+    General issues:
+	IBus Google Code
+	https://code.google.com/p/ibus/issues/list
+	Please set ibus-table-myanmar as Component
+
+    Fedora or RHEL related:
+	Red Hat Bugzilla
+	https://bugzilla.redhat.com
+	Please set ibus-table-myanmar as Component
+
+    Ubuntu or Debian related:
+	Debian Bugzilla
+	https://bugs.debian.org/ibus-table-myammar
+	Ubuntu Launchpad Bugs
+	https://bugs.launchpad.net/ibus-table-myanmar
+	Please set ibus-table-myanmar as Component
