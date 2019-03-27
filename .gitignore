@@ -1,0 +1,6 @@
+autom4te.cache
+config.log
+config.status
+ibus-table-myanmar.spec
+Makefile
+tables/*.db
